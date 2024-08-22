@@ -27,7 +27,7 @@ $config = \EConnect\Psb\Configuration::getDefaultConfiguration();
 
 $config
     ->setUsername("{username}")
-    ->setPassword("{password}");
+    ->setPassword("{password}")
     ->setClientId("{clientId}")
     ->setClientSecret("{clientSecret}")
     ->setHost("https://psb.econnect.eu")
